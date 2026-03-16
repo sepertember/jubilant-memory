@@ -1,0 +1,45 @@
+{"timestamp": "2024-03-15T08:00:00Z", "level": "INFO", "message": "Server started", "ip": "127.0.0.1", "port": 3000}
+{"timestamp": "2024-03-15T08:05:12Z", "level": "INFO", "message": "Client connected", "ip": "192.168.1.50", "user_agent": "Mozilla/5.0"}
+{"timestamp": "2024-03-15T08:10:33Z", "level": "INFO", "message": "GET /home 200 OK", "ip": "192.168.1.50", "response_time": 25}
+{"timestamp": "2024-03-15T08:15:45Z", "level": "WARN", "message": "Slow request detected", "ip": "192.168.1.51", "response_time": 2500}
+{"timestamp": "2024-03-15T08:20:22Z", "level": "ERROR", "message": "Database query failed: Connection timeout", "ip": "192.168.1.50", "query": "SELECT * FROM users"}
+{"timestamp": "2024-03-15T08:25:00Z", "level": "INFO", "message": "Database reconnected", "ip": "127.0.0.1"}
+{"timestamp": "2024-03-15T08:30:12Z", "level": "INFO", "message": "POST /api/login 200 OK", "ip": "192.168.1.52", "user": "alice"}
+{"timestamp": "2024-03-15T08:35:33Z", "level": "WARN", "message": "Invalid session token", "ip": "192.168.1.53"}
+{"timestamp": "2024-03-15T08:40:45Z", "level": "ERROR", "message": "Authentication failed: Invalid credentials", "ip": "10.0.0.22", "attempt": 1}
+{"timestamp": "2024-03-15T08:41:00Z", "level": "ERROR", "message": "Authentication failed: Invalid credentials", "ip": "10.0.0.22", "attempt": 2}
+{"timestamp": "2024-03-15T08:41:15Z", "level": "ERROR", "message": "Authentication failed: Invalid credentials", "ip": "10.0.0.22", "attempt": 3}
+{"timestamp": "2024-03-15T08:41:30Z", "level": "CRITICAL", "message": "Account locked due to multiple failed attempts", "ip": "10.0.0.22", "user": "unknown"}
+{"timestamp": "2024-03-15T09:00:22Z", "level": "INFO", "message": "Scheduled job started: cleanup", "ip": "127.0.0.1"}
+{"timestamp": "2024-03-15T09:05:45Z", "level": "INFO", "message": "Cleanup completed: 500 items removed", "ip": "127.0.0.1"}
+{"timestamp": "2024-03-15T09:15:12Z", "level": "WARN", "message": "High CPU usage: 85%", "ip": "127.0.0.1"}
+{"timestamp": "2024-03-15T09:30:33Z", "level": "INFO", "message": "GET /api/products 200 OK", "ip": "192.168.1.55", "response_time": 45}
+{"timestamp": "2024-03-15T10:00:00Z", "level": "INFO", "message": "Hourly stats: 1500 requests", "ip": "127.0.0.1"}
+{"timestamp": "2024-03-15T10:15:22Z", "level": "ERROR", "message": "File upload failed: Size exceeds limit", "ip": "192.168.1.56", "file_size": 104857600}
+{"timestamp": "2024-03-15T10:30:45Z", "level": "INFO", "message": "Cache warmed up", "ip": "127.0.0.1", "entries": 1000}
+{"timestamp": "2024-03-15T11:00:12Z", "level": "WARN", "message": "Memory usage: 78%", "ip": "127.0.0.1"}
+{"timestamp": "2024-03-15T11:15:33Z", "level": "INFO", "message": "POST /api/order 201 Created", "ip": "192.168.1.57", "order_id": "ORD-12345"}
+{"timestamp": "2024-03-15T11:30:00Z", "level": "INFO", "message": "Payment processed", "ip": "192.168.1.57", "amount": 99.99}
+{"timestamp": "2024-03-15T12:00:22Z", "level": "ERROR", "message": "Email service unavailable", "ip": "127.0.0.1", "error": "Connection refused"}
+{"timestamp": "2024-03-15T12:05:45Z", "level": "INFO", "message": "Email queued for retry", "ip": "127.0.0.1"}
+{"timestamp": "2024-03-15T12:30:12Z", "level": "INFO", "message": "GET /api/user/profile 200 OK", "ip": "192.168.1.58", "user": "bob"}
+{"timestamp": "2024-03-15T13:00:33Z", "level": "WARN", "message": "API rate limit warning: 80% used", "ip": "192.168.1.59"}
+{"timestamp": "2024-03-15T13:15:00Z", "level": "ERROR", "message": "API rate limit exceeded", "ip": "192.168.1.59"}
+{"timestamp": "2024-03-15T13:30:22Z", "level": "INFO", "message": "Rate limit reset", "ip": "192.168.1.59"}
+{"timestamp": "2024-03-15T14:00:45Z", "level": "INFO", "message": "Database backup started", "ip": "127.0.0.1"}
+{"timestamp": "2024-03-15T14:30:12Z", "level": "INFO", "message": "Database backup completed", "ip": "127.0.0.1", "size": "5.2GB"}
+{"timestamp": "2024-03-15T15:00:00Z", "level": "CRITICAL", "message": "Disk full: /var/log at 100%", "ip": "127.0.0.1"}
+{"timestamp": "2024-03-15T15:05:33Z", "level": "INFO", "message": "Log rotation started", "ip": "127.0.0.1"}
+{"timestamp": "2024-03-15T15:10:12Z", "level": "INFO", "message": "Log rotation completed", "ip": "127.0.0.1"}
+{"timestamp": "2024-03-15T15:30:45Z", "level": "WARN", "message": "SSL certificate expires in 10 days", "ip": "127.0.0.1"}
+{"timestamp": "2024-03-15T16:00:22Z", "level": "INFO", "message": "New deployment: v2.1.0", "ip": "192.168.1.100"}
+{"timestamp": "2024-03-15T16:15:00Z", "level": "INFO", "message": "Health check passed", "ip": "127.0.0.1"}
+{"timestamp": "2024-03-15T16:30:33Z", "level": "ERROR", "message": "Service dependency failed: redis", "ip": "127.0.0.1"}
+{"timestamp": "2024-03-15T16:35:12Z", "level": "INFO", "message": "Redis reconnected", "ip": "127.0.0.1"}
+{"timestamp": "2024-03-15T17:00:45Z", "level": "INFO", "message": "Daily report generated", "ip": "127.0.0.1"}
+{"timestamp": "2024-03-15T17:30:00Z", "level": "INFO", "message": "User session expired", "ip": "192.168.1.60"}
+{"timestamp": "2024-03-15T18:00:12Z", "level": "WARN", "message": "Unusual traffic from 172.16.0.10", "ip": "172.16.0.10"}
+{"timestamp": "2024-03-15T18:15:33Z", "level": "ERROR", "message": "Potential DDoS attack detected", "ip": "172.16.0.10", "requests_per_second": 5000}
+{"timestamp": "2024-03-15T18:20:00Z", "level": "CRITICAL", "message": "IP blocked: 172.16.0.10", "ip": "172.16.0.10"}
+{"timestamp": "2024-03-15T19:00:22Z", "level": "INFO", "message": "Traffic normalized", "ip": "127.0.0.1"}
+{"timestamp": "2024-03-15T20:00:45Z", "level": "INFO", "message": "System entering maintenance mode", "ip": "127.0.0.1"}

@@ -1,0 +1,44 @@
+# 应用程序日志
+2024-03-15 09:00:15 [INFO] Application server started on port 8080
+2024-03-15 09:05:22 [DEBUG] Loading module: authentication
+2024-03-15 09:05:25 [DEBUG] Loading module: database
+2024-03-15 09:05:28 [DEBUG] Loading module: cache
+2024-03-15 09:10:33 [INFO] Connection from 192.168.1.101
+2024-03-15 09:15:45 [INFO] GET /api/users 200 OK - 45ms
+2024-03-15 09:20:12 [INFO] POST /api/login 200 OK - 120ms
+2024-03-15 09:25:33 [WARN] Slow query detected: 2.5s - SELECT * FROM orders
+2024-03-15 09:30:22 [ERROR] Exception in thread "main": NullPointerException at UserService.java:45
+2024-03-15 09:35:00 [INFO] Application health check: OK
+2024-03-15 10:00:15 [INFO] GET /api/products 200 OK - 30ms
+2024-03-15 10:05:33 [INFO] POST /api/cart/add 200 OK - 55ms
+2024-03-15 10:10:45 [WARN] Cache miss rate high: 65%
+2024-03-15 10:15:22 [ERROR] Database connection pool exhausted
+2024-03-15 10:20:00 [INFO] Increased connection pool size to 50
+2024-03-15 10:25:12 [INFO] GET /api/orders 200 OK - 180ms
+2024-03-15 11:00:33 [INFO] Scheduled task started: cleanup_temp_files
+2024-03-15 11:05:45 [INFO] Cleaned up 150 temp files
+2024-03-15 11:30:22 [ERROR] Failed to parse JSON request: Unexpected token at position 45
+2024-03-15 12:00:15 [INFO] GET /api/stats 200 OK - 25ms
+2024-03-15 12:15:33 [WARN] Memory usage increasing: 512MB
+2024-03-15 12:30:00 [INFO] Garbage collection completed
+2024-03-15 13:00:22 [INFO] POST /api/checkout 200 OK - 350ms
+2024-03-15 13:15:45 [ERROR] Payment gateway error: 500 Internal Server Error
+2024-03-15 13:20:12 [INFO] Retry payment processing
+2024-03-15 13:25:33 [INFO] Payment processed successfully
+2024-03-15 14:00:00 [INFO] Peak traffic detected: 1000 req/s
+2024-03-15 14:15:22 [WARN] Response time degrading: avg 500ms
+2024-03-15 14:30:45 [INFO] Auto-scaling triggered: adding 2 instances
+2024-03-15 15:00:12 [INFO] Traffic normalized: 200 req/s
+2024-03-15 15:30:33 [INFO] GET /api/reports 200 OK - 1200ms
+2024-03-15 16:00:45 [ERROR] OutOfMemoryError: Java heap space
+2024-03-15 16:05:00 [CRITICAL] Application restart required
+2024-03-15 16:10:22 [INFO] Application restarted successfully
+2024-03-15 16:15:33 [INFO] Recovery mode: verifying data integrity
+2024-03-15 16:30:00 [INFO] Data integrity check passed
+2024-03-15 17:00:12 [INFO] Normal operation resumed
+2024-03-15 17:30:45 [WARN] Deprecated API called: /api/v1/legacy
+2024-03-15 18:00:22 [INFO] Daily maintenance completed
+2024-03-15 18:30:00 [INFO] Connection from 10.0.0.12 closed
+2024-03-15 19:00:33 [INFO] Backup process started
+2024-03-15 19:30:12 [INFO] Backup completed: 2.5GB
+2024-03-15 20:00:45 [INFO] System idle
