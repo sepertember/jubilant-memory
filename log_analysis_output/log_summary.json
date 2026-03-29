@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-16T11:42:34.331896",
+    "version": "1.0.0"
+  },
+  "summary": {
+    "total_entries": 159,
+    "unique_levels": 6,
+    "unique_ips": 20,
+    "error_rate": "20.75%",
+    "time_span_hours": 16.0,
+    "parse_errors": 0
+  },
+  "analysis": {
+    "total_entries": 159,
+    "level_distribution": {
+      "CRITICAL": 6,
+      "ERROR": 27,
+      "WARN": 19,
+      "INFO": 102,
+      "DEBUG": 3,
+      "UNKNOWN": 2
+    },
+    "hourly_distribution": {
+      "2024-03-15 08:00": 23,
+      "2024-03-15 09:00": 19,
+      "2024-03-15 10:00": 17,
+      "2024-03-15 11:00": 10,
+      "2024-03-15 12:00": 10,
+      "2024-03-15 13:00": 11,
+      "2024-03-15 14:00": 8,
+      "2024-03-15 15:00": 12,
+      "2024-03-15 16:00": 16,
+      "2024-03-15 17:00": 7,
+      "2024-03-15 18:00": 7,
+      "2024-03-15 19:00": 5,
+      "2024-03-15 20:00": 4,
+      "2024-03-15 21:00": 3,
+      "2024-03-15 22:00": 2,
+      "2024-03-15 23:00": 2,
+      "2024-03-16 00:00": 1
+    },
+    "top_errors": [
+      {
+        "message": "Authentication failed: Invalid credentials",
+        "count": 3
+      },
+      {
+        "message": "Failed to save user session data",
+        "count": 2
+      },
+      {
+        "message": "Database query failed: Connection timeout",
+        "count": 1
+      },
+      {
+        "message": "Account locked due to multiple failed attempts",
+        "count": 1
+      },
+      {
+        "message": "File upload failed: Size exceeds limit",
+        "count": 1
+      },
+      {
+        "message": "Email service unavailable",
+        "count": 1
+      },
+      {
+        "message": "API rate limit exceeded",
+        "count": 1
+      },
+      {
+        "message": "Disk full: /var/log at 100%",
+        "count": 1
+      },
+      {
+        "message": "Service dependency failed: redis",
+        "count": 1
+      },
+      {
+        "message": "Potential DDoS attack detected",
+        "count": 1
+      }
+    ],
+    "ip_distribution": {
+      "127.0.0.1": 22,
+      "10.0.0.22": 4,
+      "192.168.1.50": 3,
+      "192.168.1.59": 3,
+      "172.16.0.10": 3,
+      "10.0.0.55": 3,
+      "192.168.1.57": 2,
+      "192.168.1.100": 2,
+      "192.168.1.51": 1,
+      "192.168.1.52": 1,
+      "192.168.1.53": 1,
+      "192.168.1.55": 1,
+      "192.168.1.56": 1,
+      "192.168.1.58": 1,
+      "192.168.1.60": 1,
+      "192.168.1.101": 1,
+      "10.0.0.12": 1,
+      "192.168.1.105": 1,
+      "192.168.1.110": 1,
+      "172.16.0.25": 1
+    },
+    "time_range": {
+      "start": "2024-03-15T08:00:00",
+      "end": "2024-03-16T00:00:00"
+    },
+    "parse_errors": 0
+  },
+  "trend_analysis": {
+    "peak_hours": [
+      {
+        "hour": "2024-03-15 08:00",
+        "count": 23
+      },
+      {
+        "hour": "2024-03-15 09:00",
+        "count": 19
+      },
+      {
+        "hour": "2024-03-15 10:00",
+        "count": 17
+      },
+      {
+        "hour": "2024-03-15 16:00",
+        "count": 16
+      },
+      {
+        "hour": "2024-03-15 15:00",
+        "count": 12
+      }
+    ],
+    "quiet_hours": [
+      {
+        "hour": "2024-03-16 00:00",
+        "count": 1
+      },
+      {
+        "hour": "2024-03-15 22:00",
+        "count": 2
+      },
+      {
+        "hour": "2024-03-15 23:00",
+        "count": 2
+      },
+      {
+        "hour": "2024-03-15 21:00",
+        "count": 3
+      },
+      {
+        "hour": "2024-03-15 20:00",
+        "count": 4
+      }
+    ],
+    "average_per_hour": 9.235294117647058,
+    "anomalies": [
+      {
+        "hour": "2024-03-15 08:00",
+        "count": 23
+      },
+      {
+        "hour": "2024-03-15 09:00",
+        "count": 19
+      }
+    ]
+  }
+}
