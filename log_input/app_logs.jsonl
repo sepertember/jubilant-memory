@@ -1,0 +1,12 @@
+{"timestamp": "2026-03-16T07:30:00", "level": "INFO", "ip": "10.0.0.1", "message": "Application started"}
+{"timestamp": "2026-03-16T07:35:15", "level": "INFO", "ip": "10.0.0.2", "message": "User login successful"}
+{"timestamp": "2026-03-16T07:40:30", "level": "ERROR", "ip": "10.0.0.3", "message": "Invalid credentials provided"}
+{"timestamp": "2026-03-16T07:45:00", "level": "WARN", "ip": "10.0.0.1", "message": "Rate limit approaching"}
+{"timestamp": "2026-03-16T08:00:00", "level": "ERROR", "ip": "10.0.0.4", "message": "Database connection failed"}
+{"timestamp": "2026-03-16T08:15:00", "level": "INFO", "ip": "10.0.0.2", "message": "Data export completed"}
+{"timestamp": "2026-03-16T08:30:00", "level": "ERROR", "ip": "10.0.0.3", "message": "Invalid credentials provided"}
+{"timestamp": "2026-03-16T08:45:00", "level": "CRITICAL", "ip": "10.0.0.5", "message": "Out of memory error"}
+{"timestamp": "2026-03-16T09:00:00", "level": "INFO", "ip": "10.0.0.1", "message": "Cache cleared successfully"}
+{"timestamp": "2026-03-16T09:15:00", "level": "ERROR", "ip": "10.0.0.3", "message": "Invalid credentials provided"}
+{"timestamp": "2026-03-16T09:30:00", "level": "WARN", "ip": "10.0.0.4", "message": "High CPU usage detected"}
+{"timestamp": "2026-03-16T09:45:00", "level": "INFO", "ip": "10.0.0.2", "message": "Backup completed"}

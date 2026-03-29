@@ -1,0 +1,16 @@
+2026-03-16 08:00:15 INFO System startup completed - IP: 192.168.1.1
+2026-03-16 08:00:30 INFO Initializing database connection - IP: 192.168.1.2
+2026-03-16 08:01:00 WARN High memory usage detected (85%) - IP: 192.168.1.1
+2026-03-16 08:02:15 ERROR Failed to connect to cache server - IP: 192.168.1.3
+2026-03-16 08:03:45 ERROR Database timeout after 30s - IP: 192.168.1.2
+2026-03-16 08:05:00 INFO Retrying connection... - IP: 192.168.1.1
+2026-03-16 08:06:30 CRITICAL System overload detected! - IP: 192.168.1.4
+2026-03-16 08:10:00 INFO Service recovery successful - IP: 192.168.1.1
+2026-03-16 08:15:20 WARN Disk space running low (10% remaining) - IP: 192.168.1.2
+2026-03-16 08:20:00 ERROR Failed to load configuration file - IP: 192.168.1.3
+2026-03-16 08:30:15 INFO Processing request queue - IP: 192.168.1.1
+2026-03-16 08:45:00 ERROR Database timeout after 30s - IP: 192.168.1.2
+2026-03-16 09:00:00 INFO Hourly maintenance started - IP: 192.168.1.1
+2026-03-16 09:05:30 WARN API response time high (2500ms) - IP: 192.168.1.5
+2026-03-16 09:10:15 ERROR Failed to connect to cache server - IP: 192.168.1.3
+2026-03-16 09:15:00 INFO User authentication service healthy - IP: 192.168.1.1
